@@ -1,0 +1,25 @@
+/* Author: Monisha
+Date :   */
+.tr_img {
+    background-image: url("../images/travel.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.forms {
+    color: white;
+}
+.heading {
+    width: max-content;
+}
+label::after {
+    content: "*";
+    color: red;
+}
+.main {
+    min-height: 100vh;
+}
+@media screen and (max-width: 576px) {
+    .tr_img {
+        display: none;
+    }
+}
